@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-(d$$)j*k_lvmuwnp_7(grw8w&j!@@b4ew%g_o13bjk#uk7!qq1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -130,3 +130,4 @@ REST_FRAMEWORK = {
     ],
 }
 AUTH_USER_MODEL = 'users.User'
+CSRF_TRUSTED_ORIGINS=["https://therizz.shashaaankkkkk.me"]
