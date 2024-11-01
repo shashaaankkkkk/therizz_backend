@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     "users",
     'rest_framework',
     'rest_framework.authtoken',
+    'admin_app',
+    'products',
 ]
 
 MIDDLEWARE = [
